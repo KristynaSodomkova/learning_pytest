@@ -1,3 +1,7 @@
 from learning_pytest.guardian import Guardian
 def test_construction():
-    assert Guardian()
+    g = Guardian('Mary', 'Jones')
+    assert g.first_name == 'Mary'
+    assert g.first_name == 'Jones'
+
+#Step 5 - Pytest Tutorial: Jump To Error

@@ -1,2 +1,6 @@
+from dataclasses import dataclass
+
+@dataclass()
 class Guardian:
-    pass
+    first_name: str
+    last_name: str
